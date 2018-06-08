@@ -1,0 +1,45 @@
+body {
+    width: 340px;
+}
+
+.card {
+	text-align: center;
+}
+
+.card > h3 {
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+.card > img {
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+.container > p:first-child {
+	font-style: italic;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+.container > ul {
+	list-style-type: none;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+.container > ul > li {
+	display: inline-block;
+	width: 300px;
+	vertical-align: middle;
+}
+
+.container > ul > li > span {
+	font-weight: bold;
+	display: block;
+}
+
+.container > p:last-child {
+	border: 1px solid #ccc;
+	padding: 10px;
+}
